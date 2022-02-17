@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 1019px) {
     .idc-section {
         max-width: 610px;
@@ -46,8 +44,8 @@
         line-height: 17px;
     }
     .idc-title-2 {
-        font-size: 6vw;
-        line-height: 6.5vw;
+        font-size: 5vw;
+        line-height: 6.1vw;
     }
     .idc-verdana20 {
         font-size: 5vw;
@@ -95,6 +93,8 @@
     /* ******info**** */
     .idc-info p > strong {
         line-height: 110%;
+        font-size: 5vw;
+        line-height: 6.1vw;
     }
     .idc-info ul li {
         font-size: 14px;
