@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "Tahoma";
     src: url("Tahoma-Bold.eot");
@@ -148,7 +150,24 @@ svg {
     padding-top: 120px;
     padding-bottom: 65px;
 }
-
+.idc-head-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.idc-logo {
+    position: absolute;
+    width: 66px;
+    bottom: 100%;
+    left: -10px;
+}
 .idc-header .idc-bgwrapper {
     background-position: bottom;
 }
@@ -156,7 +175,6 @@ svg {
     color: #e41d32;
 }
 .idc-head .idc-verdana16 {
-    margin-top: 130px;
     max-width: 256px;
     color: #ffffff;
     font-weight: bold;
@@ -255,7 +273,7 @@ svg {
 
 /* ***********************pluses*************************** */
 .idc-pluses .idc-container {
-    padding-bottom: 55px;
+    padding-bottom: 60px;
     background-color: #ffffff;
 }
 .idc-pluses .idc-verdana20 {

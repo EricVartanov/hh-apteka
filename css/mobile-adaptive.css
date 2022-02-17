@@ -1,14 +1,97 @@
+
+
 @media screen and (max-width: 1019px) {
     .idc-section {
         max-width: 610px;
     }
     .idc-container {
-        max-width: 530px;
+        max-width: 566px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    /* ******head**** */
+    .idc-head .idc-container {
+        height: 353px;
+        padding-top: 115px;
+        padding-bottom: 45px;
+    }
+    .idc-logo {
+        left: -15px;
+        margin-bottom: 7px;
+    }
+    /* ******about**** */
+
+    .idc-list-item::before {
+        top: 7px;
+    }
+    /* ******pluses**** */
+
+    .idc-pluses .idc-container {
+        padding-bottom: 50px;
+    }
+    /* ******footer**** */
+
+    .idc-footer .idc-container {
+        height: 406px;
     }
 }
 @media (max-width: 699px) {
+    .idc-container {
+        width: calc(100% - 7.5vw);
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .idc-verdana16 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-title-2 {
+        font-size: 6vw;
+        line-height: 6.5vw;
+    }
+    .idc-verdana20 {
+        font-size: 5vw;
+        line-height: 6.3vw;
+    }
     /* ******head**** */
+    .idc-head .idc-container {
+        height: 59.7vw;
+        padding-top: 18.8vw;
+        /* padding-top: 60px; */
+        padding-bottom: 10px;
+    }
+    .idc-logo {
+        left: -10px;
+        margin-bottom: 4px;
+        width: 10vw;
+    }
+    .idc-title {
+        /* font-size: 18px;
+        line-height: 22px; */
+        font-size: 5.6vw;
+        line-height: 6.5vw;
+        letter-spacing: 0.02em;
+    }
+    .idc-head .idc-verdana16 {
+        /* font-size: 12px;
+        line-height: 16px; */
+        max-width: 44vw;
+        font-size: 3.8vw;
+        line-height: 5vw;
+    }
 
+    /* ******about**** */
+    .idc-about .idc-container {
+        padding-top: 30px;
+        border-radius: 20px 20px 0 0;
+    }
+    .idc-about .idc-verdana16 > span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-about .idc-title-2 {
+        margin-top: 50px;
+    }
     /* ******info**** */
     .idc-info p > strong {
         line-height: 110%;
@@ -18,7 +101,18 @@
         line-height: 140%;
         padding-left: 18px;
     }
-    /* ******video**** */
+    /* ******pluses**** */
+    .idc-pluses .idc-container {
+        padding-bottom: 30px;
+    }
 
     /* ******footer*** */
+    .idc-footer .idc-container {
+        height: 66.3vw;
+    }
+    .idc-ps {
+        margin-top: -10px;
+        font-size: 8px;
+        line-height: 9px;
+    }
 }
